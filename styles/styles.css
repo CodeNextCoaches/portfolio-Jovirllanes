@@ -1,1 +1,32 @@
+.center {
+  margin: 0 30%;
+  text-align: center;
+}
 
+button {
+
+}
+
+h1 {
+    margin: 25px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 4.5em; /* 40px/16=2.5em */
+}
+
+
+p {
+    font-family: "Courier New", Courier, monospace;
+}
+
+nav {
+    margin: 25px;
+    font-family: "Courier New", Courier, monospace;
+    font-size: 1.2em; /* 40px/16=2.5em */
+    margin: 0 30%;
+    display: center;
+}
+
+
+body {
+
+}
