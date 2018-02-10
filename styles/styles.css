@@ -1,6 +1,15 @@
-.center {
+ .center {
   margin: 0 30%;
   text-align: center;
+}
+
+#example1 {
+    background-image: url("gradient-illusion-gif.gif");
+    background-position: center, center;
+   background-repeat: repeat, repeat;
+   padding: 100px;
+}
+
 }
 
 button {
@@ -8,25 +17,43 @@ button {
 }
 
 h1 {
-    margin: 25px;
+
+margin-top: 50px;
     font-family: "Courier New", Courier, monospace;
     font-size: 4.5em; /* 40px/16=2.5em */
 }
 
 
 p {
+    margin: 0 20%;
     font-family: "Courier New", Courier, monospace;
+    font-size: 1.5em; /* 40px/16=2.5em */
 }
 
 nav {
-    margin: 25px;
+  margin: 0 20%;
+  text-align: center;
     font-family: "Courier New", Courier, monospace;
     font-size: 1.2em; /* 40px/16=2.5em */
-    margin: 0 30%;
+    margin: 0 6.6%;
     display: center;
 }
 
 
-body {
+.space {
+  margin-top: 50px;
+  margin-bottom: 25px;
+}
 
+body {
+  height: 1000px;
+}
+
+.grad {
+    height: 100%;
+    background: linear-gradient(white, light greyS); /* Standard syntax (must be last) */
+}
+
+.grey{
+  color: grey;
 }
